@@ -2,7 +2,7 @@
 
 Este repositório é um teste para hospedar uma página estática usando o **GitHub Pages**. A ideia é experimentar o funcionamento do recurso e entender melhor como ele lida com projetos de front-end simples.
 
-Acesse aqui: [https://izabellyml.github.io/portfolio](https://izabellyml.github.io/portfolio)
+Acesse aqui: [https://izabellyml.github.io/]
 
 ## Tecnologias usadas
 
