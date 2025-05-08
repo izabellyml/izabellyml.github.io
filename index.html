@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Belly's Groove World</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <div class="loader">Bem-vinda(o) ao Groove World da Belly! 🌈</div>
+
+  <div id="retro-browser">
+    <div class="browser-header">
+      <div class="browser-title">Internet Explorer - Belly's Portfolio</div>
+      <div class="browser-buttons">
+        <button><i class="fa-solid fa-window-minimize"></i></button>
+        <button><i class="fa-regular fa-window-restore"></i></button>
+        <button><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+    <div class="browser-toolbar">
+      <button><i class="fa-solid fa-left-long"></i> Back</button>
+      <button><i class="fa-solid fa-right-long"></i></button>      
+      <input type="text" value="My Computer">
+      <button>Go</button>
+      <button>Links<span>>></span></button>
+    </div>
+    <div class="browser-content">
+      <header>
+        <h1>🌼 Izabelly's Groove World! ✨🌼</h1>
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <main>
+        <section id="sobre">
+          <h2>Sobre Mim</h2>
+          <p>Olá! Sou a Belly, programadora e DJ de música eletrônica, amante de artesanato e vibes boas! 🎶🎨</p>
+        </section>
+    
+        <section id="projetos">
+          <h2>Meus Projetos</h2>
+          <div class="card-container">
+            <!-- Aqui vão os projetos -->
+          </div>
+        </section>
+    
+        <section id="hobbies">
+          <h2>Meus Hobbies</h2>
+          <p>Além de codar, sou DJ nas horas vagas e faço artesanato com muito amor!</p>
+            <div class="hobby-container">
+              <div class="hobby-card">
+                <div class="image">
+                  <img src="assets/dj.jpg" alt="DJ Belly">
+                </div>
+                <h3>Papillon</h3>
+              </div>
+              <div class="hobby-card">
+                <div class="image">
+                  <img src="assets/artesanato.jpg" alt="Artesanato Belly">
+                </div>
+                <h3>Bela Brisa</h3>
+              </div>
+            </div>
+        </section>
+    
+        <section id="contato">
+          <h2>Contato</h2>
+          <p>Quer trocar uma ideia? Me manda uma mensagem!</p>
+          <div>
+            <a href="https://www.linkedin.com/in/izabellylabegalini/" target="_blank"><img src="assets/linkedin.svg" alt="Iza Linkedin"></a><br>
+            <a href="https://github.com/izabellyml" target="_blank"><img src="assets/github.svg" alt="Iza Github"></a><br>
+            <a href="mailto:izabellylabegalini@gmail.com" target="_blank"><img src="assets/email.svg" alt="Iza Github"></a><br>
+          </div>
+    
+          <!--form>
+            <input type="text" placeholder="Seu nome">
+            <input type="email" placeholder="Seu email">
+            <textarea placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+          </form-->
+        </section>
+      </main>
+    </div>
+  </div>
+
+  
+  <div class="winamp">
+    
+    <div class="winamp-player">      
+      <div class="controls">
+        <button onclick="document.getElementById('audio').play()">Play</button>
+        <button onclick="document.getElementById('audio').pause()">Pause</button>
+        <button onclick="document.getElementById('audio').currentTime = 0">Stop</button>
+      </div>
+    
+      <audio id="audio" src="assets/All Of It - Funk Tribu feat. Lucy Dye.mp3"></audio>
+      <img src="assets/winamp-fake.png" alt="Mini Winamp">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
