@@ -8,7 +8,7 @@ Acesse aqui: [https://izabellyml.github.io/] ( A PÁGINA AINDA ESTÁ EM CONSTRU�
 
 - HTML
 - CSS
-- JavaScript (opcional)
+- JavaScript
 
 ## Objetivo
 
